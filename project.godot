@@ -8,6 +8,52 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "Commodity",
+"language": "GDScript",
+"path": "res://Classes/Resources/Commodity.gd"
+}, {
+"base": "Node",
+"class": "Galaxy",
+"language": "GDScript",
+"path": "res://Classes/Map/Galaxy.gd"
+}, {
+"base": "Node",
+"class": "Government",
+"language": "GDScript",
+"path": "res://Classes/Resources/Government.gd"
+}, {
+"base": "Node",
+"class": "Map",
+"language": "GDScript",
+"path": "res://Classes/Map/Map.gd"
+}, {
+"base": "Node",
+"class": "Planet",
+"language": "GDScript",
+"path": "res://Classes/Map/Planet.gd"
+}, {
+"base": "Node",
+"class": "Prop",
+"language": "GDScript",
+"path": "res://Classes/Map/Prop.gd"
+}, {
+"base": "Node",
+"class": "System",
+"language": "GDScript",
+"path": "res://Classes/Map/System.gd"
+} ]
+_global_script_class_icons={
+"Commodity": "",
+"Galaxy": "",
+"Government": "",
+"Map": "",
+"Planet": "",
+"Prop": "",
+"System": ""
+}
+
 [application]
 
 config/name="Ships"
@@ -19,5 +65,4 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
-quality/driver/driver_name="GLES3"
 environment/default_environment="res://default_env.tres"
