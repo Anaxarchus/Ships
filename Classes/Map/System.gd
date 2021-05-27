@@ -14,6 +14,37 @@ class Objekt:
     var offset:float
     var objects:Array
 
+class Trade:
+    var commodity:String
+    var value:int
+    func _to_string():
+        return commodity + ": " + String(value)
+
+class Link:
+    var link:String
+    func _to_string():
+        return link
+
+class Flet:
+    var fleet:String
+    var value:int
+
+class Ast:
+    var type:String
+    var count:int
+    var energy:float
+    func _to_string():
+        return "( " + type + ", " + String(count) + ", " + String(energy) + " )"
+
+
+class minable:
+    var type:String
+    var count:int
+    var energy:float
+    func _to_string():
+        return "( " + type + ", " + String(count) + ", " + String(energy) + " )"
+
+
 var position:Vector2
 var government:String
 var attributes:Array

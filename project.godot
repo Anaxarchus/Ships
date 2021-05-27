@@ -59,6 +59,12 @@ _global_script_class_icons={
 config/name="Ships"
 config/icon="res://icon.png"
 
+[importer_defaults]
+
+csv_translation={
+"delimiter": 2
+}
+
 [physics]
 
 common/enable_pause_aware_picking=true
